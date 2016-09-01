@@ -33,13 +33,13 @@ enum Colour{
 }
 
 public class Shoes {
-    String name = "GENERIC";
-    Size size = Size.FOR;
-    Brand brand = Brand.GENERIC;
-    Colour colour = Colour.BLACK;
-    Date buyDate = new Date();
+    private String name = "GENERIC";
+    private Size size = Size.FOR;
+    private Brand brand = Brand.GENERIC;
+    private Colour colour = Colour.BLACK;
+    private Date buyDate = new Date();
 
-    int warantyYearsNo = 4;
+    private int warantyYearsNo = 4;
 
     public String getName() {
         return name;

@@ -2,11 +2,17 @@ package polimorfism.birdcontrollerex1.hierarchyex5.service;
 
 import polimorfism.birdcontrollerex1.hierarchyex5.model.CasualShoe;
 
-public class CasualShoesService {
+public class CasualShoesService extends ShoesService{
 
-    public void addStep(CasualShoe casualShoe){
+    public boolean addStep(CasualShoe casualShoe,int stepsNo){
 
-        casualShoe.setStepsNo(casualShoe.getStepsNo()+1);
+        boolean result  = true;
+        if(false == this.isInWaranty(casualShoe)) {
+            System.out.println("The shoes aren't in waranty anymore, change the shoes!");
+            result = false;
+        }
+        casualShoe.setStepsNo(casualShoe.getStepsNo() + stepsNo);
+        return result;
 
     }
 }

@@ -3,7 +3,7 @@ package polimorfism.birdcontrollerex1.hierarchyex5.model;
 
 public class BikingShoes extends SportShoes {
 
-    int rotationNo = 0;
+    private int rotationNo = 0;
 
     public BikingShoes(int kmNo, int rezistance, int rotationNo) {
         super(kmNo, rezistance);

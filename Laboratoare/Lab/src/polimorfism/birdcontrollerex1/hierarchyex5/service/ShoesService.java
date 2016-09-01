@@ -9,9 +9,8 @@ import java.util.Date;
 
 public class ShoesService {
 
-    private Shoes shoe;
 
-    public boolean isInWaranty(){
+    public boolean isInWaranty(Shoes shoe){
 
         boolean returnedValue = true;
         Date date = new Date();
@@ -22,7 +21,7 @@ public class ShoesService {
         int buyYear = buyDate.getYear();
 
 
-        if(buyYear+shoe.getWarantyYearsNo() > currentYear)
+        if(buyYear+shoe.getWarantyYearsNo() < currentYear)
         {
             returnedValue = false;
         }
