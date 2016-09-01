@@ -1,8 +1,5 @@
 package shapes;
 
-/**
- * Created by catalina.serbu on 8/19/2016.
- */
 class Shape{
     int x = 0;
     int y = 0;

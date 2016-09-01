@@ -3,8 +3,13 @@ package polimorfism.birdcontrollerex1.hierarchyex5.model;
 
 public class RunningShoes extends SportShoes {
 
-    int adherence = 150;
-    int amortization = 200;
+    private int adherence;
+    private int amortization;
+
+    public RunningShoes() {
+        adherence = 100000;
+        amortization = 100000;
+    }
 
     public RunningShoes(int kmNo, int rezistance, int adherence, int amortization) {
         super(kmNo, rezistance);

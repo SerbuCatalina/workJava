@@ -4,7 +4,13 @@ import polimorfism.birdcontrollerex1.hierarchyex5.model.Shoes;
 
 public class SportShoes extends Shoes {
     private int kmNo;
-    private int rezistance = 100;
+    private int rezistance;
+
+    public SportShoes() {
+
+        kmNo = 0;
+        rezistance = 10000;
+    }
 
     public SportShoes(int kmNo, int rezistance) {
         this.kmNo = kmNo;
@@ -26,8 +32,6 @@ public class SportShoes extends Shoes {
     public void setRezistance(int rezistance) {
         this.rezistance = rezistance;
     }
-
-
 
 
 }

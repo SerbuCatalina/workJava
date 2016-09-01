@@ -2,44 +2,34 @@ package polimorfism.birdcontrollerex1.hierarchyex5.model;
 
 import java.util.Date;
 
-enum Brand{
-    GENERIC,
-    ADIDAS,
-    NIKE,
-    SALOMON,
-    LA_SPORTIVA
-}
-enum Size{
-    FOR,
-    FIVE,
-    SIX,
-    SEVEN,
-    EIGHT,
-    NINE,
-    TEN,
-    ELEVEN
-}
-enum Gender{
-    MALE,
-    FEMALE
-}
-enum Colour{
-    WHITE,
-    BLUE,
-    GREEN,
-    RED,
-    PURPLE,
-    BLACK
-}
+
 
 public class Shoes {
-    String name = "GENERIC";
-    Size size = Size.FOR;
-    Brand brand = Brand.GENERIC;
-    Colour colour = Colour.BLACK;
-    Date buyDate = new Date();
+    private String name;
+    private Size size;
+    private Brand brand;
+    private Colour colour;
+    private Date buyDate;
 
-    int warantyYearsNo = 4;
+    private int warantyYearsNo;
+
+    public Shoes() {
+        name = "GENERIC";
+        size = Size.FOR;
+        brand = Brand.GENERIC;
+        colour = Colour.BLACK;
+        buyDate = new Date();
+        warantyYearsNo = 4;
+    }
+
+    public Shoes(String name, Size size, Brand brand, Colour colour, Date buyDate, int warantyYearsNo) {
+        this.name = name;
+        this.size = size;
+        this.brand = brand;
+        this.colour = colour;
+        this.buyDate = buyDate;
+        this.warantyYearsNo = warantyYearsNo;
+    }
 
     public String getName() {
         return name;

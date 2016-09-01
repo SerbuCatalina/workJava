@@ -1,7 +1,11 @@
 package polimorfism.birdcontrollerex1.hierarchyex5.model;
 
 public class CasualShoe extends Shoes {
-    int stepsNo = 0;
+    private int stepsNo;
+
+    public CasualShoe() {
+        stepsNo = 0;
+    }
 
     public CasualShoe(int stepsNo) {
         this.stepsNo = stepsNo;
