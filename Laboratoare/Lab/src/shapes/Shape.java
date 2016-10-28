@@ -1,4 +1,6 @@
-package shapes;
+package src.shapes;
+
+import src.shapes.ShapeType;
 
 class Shape{
     int x = 0;

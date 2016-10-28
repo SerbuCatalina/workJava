@@ -1,0 +1,297 @@
+counter2 i = 0
+counter3 i = 0
+counter1 i = 0
+
+counter3 i = 1
+counter1 i = 1
+
+counter3 i = 2
+
+counter2 i = 1
+
+counter3 i = 3
+counter2 i = 2
+counter1 i = 2
+counter3 i = 4
+counter2 i = 3
+counter1 i = 3
+counter2 i = 4
+counter3 i = 5
+counter1 i = 4
+counter1 i = 5
+counter2 i = 5
+counter3 i = 6
+counter1 i = 6
+counter2 i = 6
+counter1 i = 7
+counter2 i = 7
+counter3 i = 7
+counter2 i = 8
+counter2 i = 9
+counter2 job finalised.
+counter3 i = 8
+counter1 i = 8
+counter1 i = 9
+counter3 i = 9
+counter1 job finalised.
+counter3 job finalised.
+unsync
+Am scris: [15,20]
+Am scris: [12,14]
+Am scris: [19,14]
+Am scris: [19,15]
+Am scris: [18,19]
+
+Am citit: [0,19]
+
+Am scris: [14,19]
+Am scris: [17,13]
+Am scris: [17,13]
+Am scris: [13,17]
+Am scris: [16,18]
+
+Am citit: [14,18]
+
+Am scris: [12,10]
+Am scris: [16,16]
+Am scris: [18,19]
+Am scris: [20,13]
+
+Am citit: [12,13]
+Am citit: [20,13]
+Am citit: [20,13]
+Am citit: [20,13]
+Am citit: [20,13]
+Am citit: [20,13]
+Am citit: [20,13]
+Am citit: [20,13]
+Am citit: [20,13]
+Am citit: [20,13]
+Am citit: [20,13]
+Am citit: [20,13]
+
+
+sync+wait()
+counter1 i = 0
+counter2 i = 101
+
+counter1 i = 1
+counter1 i = 2
+counter2 i = 102
+
+counter1 i = 3
+counter2 i = 103
+
+counter1 i = 4
+counter1 i = 5
+counter1 i = 6
+counter2 i = 104
+
+counter1 i = 7
+counter1 i = 8
+counter2 i = 105
+
+counter1 i = 9
+counter2 i = 106
+
+counter1 i = 10
+counter1 i = 11
+counter2 i = 107
+
+counter1 i = 12
+counter1 i = 13
+counter2 i = 108
+
+counter1 i = 14
+counter1 i = 15
+counter2 i = 109
+
+counter1 i = 16
+counter1 i = 17
+counter2 i = 110
+
+counter1 i = 18
+counter1 i = 19
+counter2 i = 111
+
+counter1 i = 20
+counter1 i = 21
+counter1 i = 22
+counter2 i = 112
+
+counter1 i = 23
+counter2 i = 113
+
+counter1 i = 24
+counter1 i = 25
+counter2 i = 114
+
+counter1 i = 26
+counter1 i = 27
+counter2 i = 115
+
+counter1 i = 28
+counter1 i = 29
+counter2 i = 116
+
+counter1 i = 30
+counter1 i = 31
+counter2 i = 117
+
+counter1 i = 32
+counter1 i = 33
+counter2 i = 118
+
+counter1 i = 34
+counter1 i = 35
+counter2 i = 119
+
+counter1 i = 36
+counter1 i = 37
+counter2 i = 120
+
+counter1 i = 38
+counter1 i = 39
+counter2 i = 121
+
+counter1 i = 40
+counter1 i = 41
+counter2 i = 122
+counter1 i = 42
+counter1 i = 43
+counter2 i = 123
+counter1 i = 44
+counter1 i = 45
+counter2 i = 124
+counter1 i = 46
+counter1 i = 47
+counter2 i = 125
+counter1 i = 48
+counter1 i = 49
+counter2 i = 126
+counter1 i = 50
+counter1 i = 51
+counter2 i = 127
+counter1 i = 52
+counter1 i = 53
+counter2 i = 128
+counter1 i = 54
+counter1 i = 55
+counter2 i = 129
+counter1 i = 56
+counter1 i = 57
+counter2 i = 130
+counter1 i = 58
+counter1 i = 59
+counter2 i = 131
+counter1 i = 60
+counter1 i = 61
+counter2 i = 132
+counter1 i = 62
+counter1 i = 63
+counter2 i = 133
+counter1 i = 64
+counter1 i = 65
+counter2 i = 134
+counter1 i = 66
+counter1 i = 67
+counter2 i = 135
+counter1 i = 68
+counter1 i = 69
+counter2 i = 136
+counter1 i = 70
+counter1 i = 71
+counter2 i = 137
+counter1 i = 72
+counter1 i = 73
+counter2 i = 138
+counter1 i = 74
+counter1 i = 75
+counter2 i = 139
+counter1 i = 76
+counter1 i = 77
+counter2 i = 140
+counter1 i = 78
+counter1 i = 79
+counter2 i = 141
+counter1 i = 80
+counter1 i = 81
+counter2 i = 142
+counter1 i = 82
+counter1 i = 83
+counter2 i = 143
+counter1 i = 84
+counter1 i = 85
+counter2 i = 144
+counter1 i = 86
+counter1 i = 87
+counter2 i = 145
+counter1 i = 88
+counter1 i = 89
+counter2 i = 146
+counter1 i = 90
+counter1 i = 91
+counter2 i = 147
+counter1 i = 92
+counter1 i = 93
+counter2 i = 148
+counter1 i = 94
+counter1 i = 95
+counter2 i = 149
+counter1 i = 96
+counter1 i = 97
+counter2 i = 150
+counter1 i = 98
+counter1 i = 99
+counter2 i = 151
+counter1 i = 100
+counter1 job finalised.
+counter2 i = 152
+counter2 i = 153
+counter2 i = 154
+counter2 i = 155
+counter2 i = 156
+counter2 i = 157
+counter2 i = 158
+counter2 i = 159
+counter2 i = 160
+counter2 i = 161
+counter2 i = 162
+counter2 i = 163
+counter2 i = 164
+counter2 i = 165
+counter2 i = 166
+counter2 i = 167
+counter2 i = 168
+counter2 i = 169
+counter2 i = 170
+counter2 i = 171
+counter2 i = 172
+counter2 i = 173
+counter2 i = 174
+counter2 i = 175
+counter2 i = 176
+counter2 i = 177
+counter2 i = 178
+counter2 i = 179
+counter2 i = 180
+counter2 i = 181
+counter2 i = 182
+counter2 i = 183
+counter2 i = 184
+counter2 i = 185
+counter2 i = 186
+counter2 i = 187
+counter2 i = 188
+counter2 i = 189
+counter2 i = 190
+counter2 i = 191
+counter2 i = 192
+counter2 i = 193
+counter2 i = 194
+counter2 i = 195
+counter2 i = 196
+counter2 i = 197
+counter2 i = 198
+counter2 i = 199
+counter2 job finalised.

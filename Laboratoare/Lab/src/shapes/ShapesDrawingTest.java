@@ -1,15 +1,9 @@
-package shapes;
-
+package src.shapes;
 /**
  * Created by catalina.serbu on 8/19/2016.
  */
 
-enum ShapeType{
-    GENERIC,
-    POINT,
-    CIRCLE,
-    RECTANGLE
-}
+
 public class ShapesDrawingTest {
     public static void main(String args[]){
 

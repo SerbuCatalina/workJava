@@ -1,4 +1,4 @@
-package shapes;
+package src.shapes;
 
 /**
  * Created by catalina.serbu on 8/19/2016.
