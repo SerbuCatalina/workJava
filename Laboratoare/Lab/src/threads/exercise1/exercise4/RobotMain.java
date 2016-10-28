@@ -9,19 +9,18 @@ public class RobotMain {
 
     public static void main(String args[]){
 
-        Robot r1 = new Robot("robot1",0,0);
-        Robot r2 = new Robot("robot2",0,0);
-        Robot r3 = new Robot("robot3",0,0);
-        Robot r4 = new Robot("robot4",0,0);
 
-        for(int i=0;i<30;i++) {
-            int nr1 = new Random().nextInt(4);
-            int nr2 = new Random().nextInt(4);
-            System.out.println("("+nr1+","+nr2+")");
-        }
-       /* r1.start();
+        Table table = new Table();
+        RobotMove r1 = new RobotMove("robot1",table);
+        RobotMove r2 = new RobotMove("robot2",table);
+        RobotMove r3 = new RobotMove("robot3",table);
+        RobotMove r4 = new RobotMove("robot4",table);
+
+        r1.start();
         r2.start();
         r3.start();
-        r4.start();*/
+        r4.start();
+
+
     }
 }
